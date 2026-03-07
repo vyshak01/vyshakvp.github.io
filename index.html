@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vyshak VP | AI & ML Engineer</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+background:rgba(0,0,0,0.4);
+backdrop-filter:blur(10px);
+padding:15px;
+display:flex;
+justify-content:center;
+gap:40px;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#1e293b,#020617);
+padding:20px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:10px;
+background:linear-gradient(90deg,#38bdf8,#818cf8);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+font-size:20px;
+opacity:0.8;
+}
+
+.hero button{
+margin-top:25px;
+padding:12px 30px;
+border:none;
+border-radius:30px;
+background:#38bdf8;
+color:black;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+.hero button:hover{
+transform:scale(1.1);
+}
+
+/* SECTIONS */
+
+section{
+max-width:1100px;
+margin:auto;
+padding:90px 20px;
+}
+
+h2{
+font-size:35px;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+/* ABOUT */
+
+.about{
+font-size:18px;
+opacity:0.9;
+}
+
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skill{
+background:#1e293b;
+padding:10px 18px;
+border-radius:20px;
+font-size:14px;
+transition:0.3s;
+}
+
+.skill:hover{
+background:#38bdf8;
+color:black;
+}
+
+/* PROJECTS */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:25px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+transition:0.3s;
+border:1px solid rgba(255,255,255,0.1);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+margin-top:40px;
+opacity:0.8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>Vyshak V P</h1>
+
+<p>AI / ML Engineer • Data Science • Python Developer</p>
+
+<p>Malappuram, Kerala</p>
+
+<button onclick="location.href='#projects'">View My Work</button>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p class="about">
+
+I am an AI/ML Engineer with an Electronics Engineering diploma and training
+in Data Science, Machine Learning, and Deep Learning. I enjoy building
+intelligent systems that solve real-world problems using data, computer
+vision, and AI technologies.
+
+</p>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">SQL</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Deep Learning</div>
+<div class="skill">NLP</div>
+<div class="skill">Data Analysis</div>
+<div class="skill">EDA</div>
+<div class="skill">Flask</div>
+<div class="skill">FastAPI</div>
+<div class="skill">Power BI</div>
+<div class="skill">CNN</div>
+<div class="skill">LSTM</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<h3>AI Integrated Robot</h3>
+
+<p>
+Built AI robots capable of teaching and interacting with students using python,llm,Speech Recognition,Text To Speech.including Raspberry Pi,
+ESP32, gear motors, and servo motors, ensuring efficient movement and seamless AI functionalities.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Concrete Strength Predictor</h3>
+
+<p>
+This project is a Concrete Strength Calculator built using Machine
+Learning and make it as a Streamlit web application.It predicts the compressive strength of concrete (in Mpa) based on
+Inputs features Cement, Blast Furnace Slag, Fly Ash, Water, Superplasticizer, Coarse Aggregate, Fine Aggregate, and Age
+(days) and predict Output as compressive strength with corresponding Concrete Grade classification (C10, C20, …,
+C60+).
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Object Removal from Image</h3>
+
+<p>
+This project is a segmentation classification .The primary aim of this project is to
+remove unwanted objects from images using U-NET Architecture. The system detects the selected object and
+intelligently erases it while preserving the natural appearance of the surrounding area. In addition to object removal, the
+project includes a background color change feature, allowing users to customize the image background with any color of
+their choice. And created a web app using streamlit for this project.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Flight Ticket Booking Chatbot</h3>
+
+<p>
+LLM + RAG chatbot that answers queries and helps users book flight tickets
+with a friendly UI.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<p>Email: vyshakplus@gmail.com</p>
+
+<p>LinkedIn:
+<a href="https://www.linkedin.com/in/vyshak-v-p-520875302">
+linkedin.com/in/vyshak-v-p
+</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Vyshak V P | AI & ML Portfolio</p>
+
+</footer>
+
+</body>
+</html>
